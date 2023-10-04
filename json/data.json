@@ -1,0 +1,29 @@
+[
+  {
+    "devault_value": "string",
+    "value": "string",
+    "validation": "^[a-zA-Z]+$",
+    "type": "text"
+  },
+  {
+    "devault_value": "string",
+    "value": "string",
+    "validation": "[A-Za-z]",
+    "type": "longtext"
+  },
+  {
+    "devault_value": 5,
+    "value": -1,
+    "validation": "[0-9]",
+    "type": "number"
+  },
+  {
+    "devault_value": 2,
+    "type": "dropdown",
+    "options": [1, 2, 3, 4, 5]
+  },
+  {
+    "value": true,
+    "type": "text"
+  }
+]
