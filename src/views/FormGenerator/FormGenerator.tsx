@@ -2,12 +2,18 @@ import { FC, useEffect, useState } from "react";
 import { IFormGeneratorField, IFormGeneratorProps } from "./types";
 import { FormField } from "./parts";
 
-export const FormGenerator: FC<IFormGeneratorProps> = ({ formScheme }) => {
+export const FormGenerator: FC<IFormGeneratorProps> = ({ formScheme, handleSubmitForm }) => {
   const [state, setState] = useState<IFormGeneratorField[]>([]);
 
   const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     console.log("submit", state);
+    const data = {} as any;
+    state.forEach((field) => {
+      data[field.name] = field.value
+    })
+
+    handleSubmitForm(data)
   };
 
   const handleFieldChange = (data: IFormGeneratorField) => {

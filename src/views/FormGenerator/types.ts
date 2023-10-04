@@ -12,7 +12,7 @@ export interface IFormField {
 
 export interface IFormGeneratorProps {
   formScheme: IFormField[];
-  handleSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
+  handleSubmitForm: (data:any) => void;
 }
 
 export interface IFormGeneratorField {
