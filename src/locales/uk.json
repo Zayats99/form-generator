@@ -1,0 +1,12 @@
+{
+  "RootLayout": {
+    "home_link": "Домашня",
+    "about_link": "Про проект"
+  },
+  "Form": {
+    "title": "Форма"
+  },
+  "About": {
+    "title": "Про проект"
+  }
+}

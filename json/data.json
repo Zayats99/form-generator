@@ -1,0 +1,65 @@
+[
+  {
+    "default_value": "Hello123",
+    "value": "Test_Value",
+    "validation": "^[a-zA-Z0-9_]+$",
+    "type": "text",
+    "min_value": 5,
+    "max_value": 20
+  },
+  {
+    "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "value": "1000",
+    "validation": "^.{10,500}$",
+    "type": "longtext",
+    "min_value": 10,
+    "max_value": 500
+  },
+  {
+    "default_value": 0,
+    "value": 9999,
+    "validation": "^-?[0-9]+$",
+    "type": "number",
+    "min_value": -1000,
+    "max_value": 10000
+  },
+  {
+    "default_value": "Option B",
+    "value": "Option C",
+    "type": "dropdown",
+    "options": ["Option A", "Option B", "Option C", "Option D"]
+  },
+  {
+    "default_value": "User Input",
+    "value": "",
+    "validation": "^[a-zA-Z\\s]+$",
+    "type": "text",
+    "min_value": 1,
+    "max_value": 50
+  },
+  {
+    "default_value": 50,
+    "value": 75,
+    "type": "number",
+    "min_value": 0,
+    "max_value": 100
+  },
+  {
+    "default_value": "Select a category",
+    "value": "",
+    "type": "dropdown",
+    "options": ["Electronics", "Books", "Clothing", "Food", "Other"]
+  },
+  {
+    "default_value": "Write your comment here...",
+    "value": "This is a sample comment with some length to it.",
+    "type": "longtext",
+    "min_value": 5,
+    "max_value": 1000
+  },
+  {
+    "default_value": false,
+    "value": true,
+    "type": "checkbox"
+  }
+]

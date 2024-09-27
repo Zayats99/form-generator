@@ -1,0 +1,58 @@
+[
+  {
+    "default_value": "User2023",
+    "value": "John_Doe",
+    "validation": "^[a-zA-Z0-9_]+$",
+    "type": "text",
+    "min_value": 5,
+    "max_value": 20
+  },
+  {
+    "default_value": "Please provide a detailed description of your request.",
+    "value": "I need assistance with setting up a new development environment for a Python project using virtual environments and pip.",
+    "validation": "^.{10,500}$",
+    "type": "longtext",
+    "min_value": 10,
+    "max_value": 500
+  },
+  {
+    "default_value": 100,
+    "value": -500,
+    "validation": "^-?[0-9]+$",
+    "type": "number",
+    "min_value": -1000,
+    "max_value": 10000
+  },
+  {
+    "default_value": "Medium",
+    "value": "High",
+    "type": "dropdown",
+    "options": ["Low", "Medium", "High", "Critical"]
+  },
+  {
+    "default_value": "Enter your full name",
+    "value": "Jane Smith",
+    "validation": "^[a-zA-Z\\s]+$",
+    "type": "text",
+    "min_value": 1,
+    "max_value": 50
+  },
+  {
+    "default_value": 25,
+    "value": 80,
+    "type": "number",
+    "min_value": 0,
+    "max_value": 100
+  },
+  {
+    "default_value": "Choose a department",
+    "value": "IT",
+    "type": "dropdown",
+    "options": ["HR", "Finance", "IT", "Marketing", "Operations"]
+  },
+  {
+    "default_value": true,
+    "value": false,
+    "type": "checkbox"
+  }
+]
