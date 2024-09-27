@@ -14,6 +14,7 @@ export default function Main() {
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setFormScheme([]);
     const file = event.target.files?.[0];
     if (file) {
       const reader = new FileReader();
@@ -31,6 +32,7 @@ export default function Main() {
   };
 
   const handleApiLoad = async () => {
+    setFormScheme([]);
     try {
       const data = await fetcher(`${getBaseUrl()}/api/form`);
       setFormScheme(data);

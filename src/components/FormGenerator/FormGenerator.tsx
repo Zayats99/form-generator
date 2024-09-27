@@ -45,6 +45,7 @@ export const FormGenerator: FC<IFormGeneratorProps> = ({ formScheme }) => {
 
   useEffect(() => {
     if (!formScheme) {
+      setFields([]);
       return;
     }
 
