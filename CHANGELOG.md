@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Zayats99/form-generator/compare/v1.0.0...v1.0.1) (2024-09-27)
+
+
+### Bug Fixes
+
+* form init ([16f3833](https://github.com/Zayats99/form-generator/commit/16f3833c9a927b4a9f456bf540791393986703f0))
+
 # 1.0.0 (2024-09-27)
 
 
